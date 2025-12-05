@@ -9,6 +9,7 @@ cp .env.example .env
 ```
 
 Add your INWORLD_API_KEY to the .env file
+Adjust LOG_LEVEL if desired.
 
 ```bash
 npm install

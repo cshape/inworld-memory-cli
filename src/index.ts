@@ -10,7 +10,7 @@ import { logger } from './utils/logger';
 import { debugStore } from './utils/debug_store';
 import chalk from 'chalk';
 
-const USER_ID = 'cli_user_v4';
+const USER_ID = process.env.USER_ID || 'cli_user';
 
 // Load Templates
 const FLASH_TEMPLATE_PATH = path.resolve(__dirname, 'memories/flash/templates/flash_memory_prompt.jinja');
