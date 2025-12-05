@@ -1,0 +1,16 @@
+{
+  "name": "inworld-memory-cli",
+  "scripts": {
+    "start": "ts-node src/index.ts"
+  },
+  "devDependencies": {
+    "@types/node": "^22.13.10",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.2"
+  },
+  "dependencies": {
+    "@inworld/runtime": "https://assets.inworld.ai/node-packages/inworld-runtime-0.8.0-rc.10.tgz",
+    "chalk": "4",
+    "dotenv": "^16.0.1"
+  }
+}
